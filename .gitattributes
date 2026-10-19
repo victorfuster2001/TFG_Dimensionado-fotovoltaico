@@ -1,0 +1,19 @@
+# Fuentes de Visual Studio: finales de linea de Windows
+*.h    text eol=crlf
+*.cpp  text eol=crlf
+*.py   text eol=lf
+*.md   text eol=lf
+
+# Tablas de datos que lee el programa (una fila por linea, separadas por TAB)
+data/Capitales_V2.txt            text eol=lf
+data/Factor_Correccion_PCT.txt   text eol=lf
+
+# Ficheros de ejemplo del usuario: se dejan tal cual
+data/ejemplo_Valencia/*.txt      -text
+
+*.XLSX binary
+*.xlsx binary
+
+# Proyecto de Visual Studio
+*.sln      text eol=crlf
+*.vcxproj  text eol=crlf

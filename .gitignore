@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.aps
+ipch/
+*.ipch
+*.VC.db
+*.VC.VC.opendb
+
+# Resultados de compilacion
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+[Bb]in/
+[Oo]bj/
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exe
+*.dll
+*.log
+*.tlog
+*.idb
+
+# Python
+__pycache__/
+*.pyc
+
+# Sistema
+Thumbs.db
+.DS_Store
