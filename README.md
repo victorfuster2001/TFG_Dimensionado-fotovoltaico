@@ -116,14 +116,3 @@ python tools/calculo_referencia.py detallado --consumo-anual 3500 --paneles 10
 └── docs/                    Funcionamiento, datos, pruebas y problemas conocidos
 ```
 
-## Limitaciones
-
-Resumen (detalle en [`docs/PROBLEMAS_CONOCIDOS.md`](docs/PROBLEMAS_CONOCIDOS.md)): el modo *Peor mes* de la pestaña 1 elige siempre
-enero; *Actualizar valores* guarda el área del panel en el campo del precio; los números con coma decimal se leen truncados;
-el total de la inversión de la pestaña 2 no suma el inversor; los precios (paneles, inversores Huawei SUN2000, instalación) son
-orientativos y de fecha 23/11/2023.
-
-## Licencia
-
-Pendiente de definir por el autor (añade un fichero `LICENSE`). Las tablas de `data/fuentes/` proceden de fuentes de terceros;
-comprueba que puedes redistribuirlas antes de publicar el repositorio.
